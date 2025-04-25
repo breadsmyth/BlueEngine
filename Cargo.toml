@@ -1,6 +1,6 @@
 [package]
 name = "blue_engine"
-version = "0.9.0"
+version = "0.9.1"
 authors = ["Elham Aryanpur <elhamaryanpur5@gmail.com>"]
 edition = "2024"
 description = "General-Purpose, Easy-to-use, Fast, and Portable graphics engine"
@@ -44,7 +44,7 @@ glam_fast_math = [
 ]
 
 [dependencies]
-blue_engine_core = { version = "0.9.0", optional = true }
+blue_engine_core = { version = "0.9.1", optional = true }
 # blue_engine_core = { path = "crates/blue_engine_core", optional = true }
 
 # Wasm does not support dynamic linking.

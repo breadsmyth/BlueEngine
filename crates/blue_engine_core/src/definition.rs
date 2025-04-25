@@ -321,7 +321,7 @@ impl crate::prelude::Renderer {
             address_mode_u: mode,
             address_mode_v: mode,
             address_mode_w: mode,
-            mag_filter: wgpu::FilterMode::Linear,
+            mag_filter: wgpu::FilterMode::Nearest,
             min_filter: wgpu::FilterMode::Nearest,
             mipmap_filter: wgpu::FilterMode::Nearest,
             ..Default::default()
